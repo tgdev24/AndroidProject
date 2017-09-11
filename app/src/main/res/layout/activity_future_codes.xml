@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.sdge_app.futureCodes">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About SDFF-FutureCodes"
+            android:textAllCaps="true"
+            android:textStyle="bold|italic"
+            android:textSize="36dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:id="@+id/about_futurecodes"
+            android:shadowColor="#000"
+            android:shadowDx="-2"
+            android:shadowDy="-2"
+            android:shadowRadius="0.1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="FutureCodes is a program established to close the gender gap in technology. FutureCodes is striving bridge the new digital divide by engaging young women and youth with a pathway to a sustainable career and independence.\n\nWithin this program, young women attend bi-weekly sessions throughout the school year and into the summer and learn basic coding concepts and information about careers within computer science from experts and mentors. They learn to work together as a team, establish sisterhood, and engage with their communities to solve a real world problem as they develop a Community Impact Project utilizing coding concepts.\n\nSDFF-FutureCodes is a FREE, year round program and is currently open to any 9th or 10th grade high school students."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For More Information:"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:padding="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:text="Contact Name: Alemao Bravo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:autoLink="email"
+            android:textColorLink="@android:color/holo_blue_dark"
+            android:text="alemao@sdfutures.org"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:autoLink="phone"
+            android:textColorLink="@android:color/holo_blue_dark"
+            android:text="619-269-1684, ext. 230"/>
+        <ImageView
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center"
+            android:src="@drawable/future_codes"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sdge_app.aboutPage"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About SDGE"
+            android:textAllCaps="true"
+            android:textStyle="bold|italic"
+            android:textSize="36dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:padding="16dp"
+            android:id="@+id/aboutsdge"
+            android:shadowColor="#000"
+            android:shadowDx="-2"
+            android:shadowDy="-2"
+            android:shadowRadius="0.1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="SDG&amp;E is a regulated public utility that provides energy service to 3.6 million people through 1.4 million electric meters and 873,000 natural gas meters in San Diego and southern Orange counties. Our service area spans 4,100 square miles."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cool Zones"
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Cool Zones are places where senior citizens and people with special needs can comfortably escape mid-day summer heat and reduce their air-conditioning use, which helps save on energy costs.\n\nCool Zones are established by the County of San Diego Aging and Independence Services (AIS) and this year are open to the public from May 4 to October 31, 2017. There are currently more than 100 Cool Zones that provide service to some of the hottest areas in the San Diego region. They are located in senior centers and other public buildings."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For More Information: "
+            android:textAllCaps="true"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:padding="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:autoLink="web"
+            android:textColorLink="@android:color/holo_blue_dark"
+            android:text="https://www.sdge.com/cool-zones"/>
+        <ImageView
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sdge_logo"/>
+    </LinearLayout>
+</ScrollView>
